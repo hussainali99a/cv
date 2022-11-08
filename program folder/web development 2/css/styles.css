@@ -1,0 +1,25 @@
+/*external css*/
+        body{
+            background-color:#DEF5E5;
+        }
+        hr{
+            
+            
+            width:100px; /*we can also specify percentage*/
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            border-color: grey;
+            
+            
+        }
+        h1{
+            color: #66bfbf;
+        }
+        h3{
+            color: #50577A;
+            font-style: inherit;
+        }
+       
+        
+   

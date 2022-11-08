@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: #40514E
+    
+     
+    ; /* ye sirf inline me hi kaam ata he agar h1 changes honge to ye kaam nhi karega  agar bolck elemnet 
+    hoga to woh center se hatt jayega*/
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: papyrus,cursive;
+    /* font-size: 80px; */
+    font-size:4.62rem ; 
+    color: #66BFBF;
+    line-height: 2;
+    /* 1em = 16px ;em is phenotic pronouncation of letter m it is width of capital letter m */
+/* rem does not effect by size of upstream font size */
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+}
+.footer-link{
+    color: #11999E;
+}
+.top-container{
+    background-color: #BCEAD5;
+    position: relative;
+    padding-top: 100px;
+}
+hr{
+    border: #EAF6F6  dotted 6px;
+  
+   
+   border-bottom: none;
+
+    margin: 100px auto;
+    width: 4%;
+    
+    
+    
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom:300px;
+}
+.upper-cloud{
+    position: absolute;
+    top:40px;
+    right: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto  100px  auto ;
+    text-align: left;
+    
+    
+}
+.programmer{
+    width: 25%;
+    margin-right: 20px;
+    float: left;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+}
+.sports{
+    width: 25%;
+    margin-left: 20px;
+    float: right;
+    /* float property is used to shift our imafe or we can say our text beside it . */
+}
+p{
+    line-height: 2;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+}
+a{
+    color: #11999e;
+    font-family: 'montserrat',cursive;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+.copywright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration : none;
+  }
+  
+  .btn:hover {
+    background: #11bd70;
+    background-image: -webkit-linear-gradient(top, #11bd70, #13d6b6);
+    background-image: -moz-linear-gradient(top, #11bd70, #13d6b6);
+    background-image: -ms-linear-gradient(top, #11bd70, #13d6b6);
+    background-image: -o-linear-gradient(top, #11bd70, #13d6b6);
+    background-image: linear-gradient(to bottom, #11bd70, #13d6b6);
+    text-decoration: none;
+  }
+/* .discription{
+    clear: left; 
+}
+.sports-discription{
+    clear: right;
+} */
+/* styling text on css */
+
+/* margin is used to complete the spaces that are set as default by the browser when we use div.
+view port is screeen where we currently looking our website
+we can also specify the border of the block or we can say div
+we can also write specific code like border top = 0
+also do padding differnce btw edges  */

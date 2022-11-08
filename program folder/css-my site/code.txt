@@ -1,0 +1,17 @@
+css display property 
+it have for properties
+block,inline,inline-block,none
+entire paragrpah takes whole width of the page by default 
+span allowed  us to select one part of select give us seperate block 
+it is inline display element 
+take much as need to .
+
+common inline element 
+<span> it is inline nut in inline element we cant change width
+img
+anchors<a>
+position property
+four properties are there
+static in their position by default,relative coordinate property
+left top right bottom
+absolute,fixed
